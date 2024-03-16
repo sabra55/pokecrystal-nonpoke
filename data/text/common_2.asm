@@ -304,8 +304,8 @@ _CantUseItemText::
 
 _UseCutText::
 	text_ram wStringBuffer2
-	text " used"
-	line "CUT!"
+	text " CUT"
+	line "something down!"
 	prompt
 
 _CutNothingText::
@@ -323,8 +323,8 @@ _BlindingFlashText::
 
 _UsedSurfText::
 	text_ram wStringBuffer2
-	text " used"
-	line "SURF!"
+	text " SURFed"
+	line "on the water!"
 	done
 
 _CantSurfText::
@@ -360,8 +360,8 @@ _AskWaterfallText::
 
 _UseDigText::
 	text_ram wStringBuffer2
-	text " used"
-	line "DIG!"
+	text " dug"
+	line "a hole!"
 	done
 
 _UseEscapeRopeText::
@@ -463,8 +463,8 @@ _AskHeadbuttText::
 
 _UseRockSmashText::
 	text_ram wStringBuffer2
-	text " used"
-	line "ROCK SMASH!"
+	text " SMASHed"
+	line "a ROCK!"
 	prompt
 
 _MaySmashText::
@@ -740,13 +740,13 @@ _ActorNameText::
 	text_end
 
 _UsedMove1Text::
-	text_start
-	line "used @"
+	text " used"
+	line "@"
 	text_end
 
 _UsedMove2Text::
-	text_start
-	line "used @"
+	text " used"
+	line "@"
 	text_end
 
 _UsedInsteadText::
@@ -1526,52 +1526,51 @@ _MayRegisterItemText::
 	done
 
 _OakText1::
-	text "Hello! Sorry to"
-	line "keep you waiting!"
-
-	para "Welcome to the"
-	line "world of #MON!"
-
-	para "My name is OAK."
+	text "Hello there! Wel-"
+	line "come to the world"
+	cont "of PETS!"
+	
+	para "My name is ORCHID."
 
 	para "People call me the"
-	line "#MON PROF."
+	line "PET EXPERT."
 	prompt
 
 _OakText2::
 	text "This world is in-"
 	line "habited by crea-"
-	cont "tures that we call"
-	cont "#MON.@"
+	
+	para "tures that we take"
+	line "as PETS.@"
 	text_end
 
 _OakText3::
 	text_promptbutton
 	text_end
 
-	text_end ; unreferenced
-
 _OakText4::
-	text "People and #MON"
+	text "People and PETS"
 	line "live together by"
 
 	para "supporting each"
 	line "other."
 
 	para "Some people play"
-	line "with #MON, some"
-	cont "battle with them."
+	line "with PETS, others"
+	
+	para "get into fights"
+	line "with them."
 	prompt
 
 _OakText5::
 	text "But we don't know"
 	line "everything about"
-	cont "#MON yet."
+	cont "PETS yet."
 
 	para "There are still"
 	line "many mysteries to"
 	cont "solve."
 
 	para "That's why I study"
-	line "#MON every day."
+	line "PETS every day."
 	prompt

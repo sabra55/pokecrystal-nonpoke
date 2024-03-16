@@ -1111,11 +1111,12 @@ _EnemyWithdrewText::
 	prompt
 
 _EnemyUsedOnText::
-	text "<ENEMY>"
-	line "used @"
+	text "<ENEMY> used"
+	line "@"
 	text_ram wMonOrItemNameBuffer
 	text_start
-	cont "on @"
+	text "on"
+	cont "@"
 	text_ram wEnemyMonNickname
 	text "!"
 	prompt

@@ -8,7 +8,7 @@ _OakText7::
 	line "ready?"
 
 	para "Your very own"
-	line "#MON story is"
+	line "PET OWNER story's"
 	cont "about to unfold."
 
 	para "You'll face fun"
@@ -18,19 +18,17 @@ _OakText7::
 	para "A world of dreams"
 	line "and adventures"
 
-	para "with #MON"
-	line "awaits! Let's go!"
+	para "with PETS awaits!"
+	line "Let's go!"
 
 	para "I'll be seeing you"
-	line "later!"
+	line "in my lab later!"
 	done
 
 _ClockTimeMayBeWrongText::
 	text "The clock's time"
 	line "may be wrong."
-
-	para "Please reset the"
-	line "time."
+	cont "Please reset it."
 	prompt
 
 _ClockSetWithControlPadText::
@@ -58,8 +56,8 @@ _LinkTimeoutText::
 
 _LinkTradeCantBattleText::
 	text "If you trade that"
-	line "#MON, you won't"
-	cont "be able to battle."
+	line "PET, you won't be"
+	cont "able to battle."
 	prompt
 
 _LinkAbnormalMonText::

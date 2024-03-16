@@ -160,7 +160,7 @@ BattleText_TheSandstormSubsided:
 	prompt
 
 BattleText_EnemyMonFainted:
-	text "Enemy @"
+	text "Foe @"
 	text_ram wEnemyMonNickname
 	text_start
 	line "fainted!"
@@ -445,8 +445,8 @@ BattleText_UserWasReleasedFromStringBuffer1:
 	prompt
 
 UsedBindText:
-	text "<USER>"
-	line "used BIND on"
+	text "<USER> used"
+	line "BIND on"
 	cont "<TARGET>!"
 	prompt
 

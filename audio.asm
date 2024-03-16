@@ -138,6 +138,11 @@ INCLUDE "audio/music/battletowerlobby.asm"
 INCLUDE "audio/music/mobilecenter.asm"
 
 
+SECTION "Songs 6", ROMX
+
+INCLUDE "audio/music/mystery.asm"
+
+
 SECTION "Extra Songs 1", ROMX
 
 INCLUDE "audio/music/credits.asm"
