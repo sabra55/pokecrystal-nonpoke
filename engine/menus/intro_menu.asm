@@ -64,13 +64,13 @@ NewGame:
 	call ResetWRAM
 	call NewGame_ClearTilemapEtc
 	call PlayerProfileSetup
-	call OakSpeech
+	;call OakSpeech
 	call InitializeWorld
 
 	ld a, LANDMARK_NEW_BARK_TOWN
 	ld [wPrevLandmark], a
 
-	ld a, SPAWN_HOME
+	ld a, SPAWN_NEW_BARK
 	ld [wDefaultSpawnpoint], a
 
 	ld a, MAPSETUP_WARP

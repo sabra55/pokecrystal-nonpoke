@@ -82,13 +82,13 @@ DEF LOGO_POSITION EQU 6
 	pop af
 	ldh [rSVBK], a
 	
-	lb bc, BANK(CrystalmoonScreenGFX), (CrystalmoonScreenPalettes - CrystalmoonScreenGFX) / 8
+	lb bc, BANK(CrystalmoonScreenGFX), (CrystalmoonScreenPalettes - CrystalmoonScreenGFX) / $10
 	ld de, CrystalmoonScreenGFX
 	ld hl, vTiles1
 	call Get2bpp
 	
-	hlcoord 4, LOGO_POSITION
-	lb bc, 5, 13
+	hlcoord 4, LOGO_POSITION - 1
+	lb bc, 6, 13
 	lb de, $80, 13
 	call DrawGraphic
 	
@@ -100,6 +100,7 @@ DEF LOGO_POSITION EQU 6
 	
 	ld c, 90 ; frames
 	call DelayFrames 
+	;pop af
 	farcall StartTitleScreen
 	ret
 	

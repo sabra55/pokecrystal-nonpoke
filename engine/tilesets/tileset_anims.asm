@@ -33,7 +33,7 @@ _AnimateTileset::
 	ld h, [hl]
 	ld l, a
 
-	jp hl
+	ret ; jp hl ; this is causing me problems and animations aren't that important anyway
 
 Tileset0Anim:
 TilesetJohtoModernAnim:
